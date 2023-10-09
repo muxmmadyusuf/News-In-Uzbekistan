@@ -1,0 +1,227 @@
+@media(max-width:1110px){
+    .tepa {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .qiziq, .nava, .flex {
+        width: 100%;
+    }
+    .img {
+        margin: 10px 0;
+    }
+    .sahifalar {
+        row-gap: 10px;
+    }
+    .box1{
+        width: 33.33%;
+        text-align: center;
+    }
+}
+@media(max-width:1000px){
+    .sss {
+        width: 40%;
+    }
+    .footerlogo {
+        width: 150px;
+    }
+    .flex7 {
+        padding: 30px 20px;
+    }
+}
+@media(max-width:950px){
+    .a1, .foto, .chap1 {
+        width: 100%;
+    }
+    .a1 {
+        margin-bottom: 15px;
+    }
+    .homebox {
+        width: 32%;
+    }
+    .chap {
+        width: 60%;
+    }
+    .right {
+        width: 38%;
+    }
+}
+@media(max-width:800px){
+    .as, .sss, .eee{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .footerlogo {
+        width: 150px;
+    }
+    .flex7, .icons{
+        padding: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media(max-width:750px){
+    .chap, .right {
+        width: 49%;
+    }
+    .img1, .homeleft {
+        height: auto;
+        background-size: cover;
+    }
+}
+@media(max-width:700px){
+    .alls {
+        padding: 0 15px;
+    }
+    .img4 {
+        width: 49%;
+    }
+}
+@media(max-width:600px){
+    .img1{
+        width: 100%;
+        background-size: cover;
+    }
+    .chap, .right {
+        width: 100%;
+    }
+    .miniswrap {
+        position: static;
+    }
+    .homelefttitle {
+        font-size: 21px;
+    }
+    .homeboxtitle, .articletitle {
+        font-size: 18px;
+    }
+    .infosection {
+        flex-wrap: wrap;
+    }
+    .infoimg {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .info {
+        width: 100%;
+    }
+    .input, .textbox {
+        width: 100%;
+    }
+}
+@media(max-width:520px){
+    .mobilenav {
+        display: flex;
+    }
+    .qiziq {
+        display: none;
+    }
+    .show{
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.95);
+        align-content: flex-start;
+        padding: 40px;
+        row-gap: 20px;
+        display: none;
+        z-index: 20;
+    }
+    .show {
+        display: flex;
+        animation: menu1 0.2s linear;
+        transform-origin: top;
+    }
+    @keyframes menu1 {
+        0% {
+            transform: scale(0.7);
+            opacity: 0;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    .box1 {
+        width: 100%;
+        text-align: left;
+    }
+    .close {
+        display: inline-flex;
+    }
+    .footerlogo {
+        width: 120px;
+    }
+    .footer.container {
+        padding: 15px;
+    }
+}
+@media(max-width:470px){
+    .img4 {
+        width: 100%;
+    }
+    .h1 {
+        font-size: 31px;
+    }
+    .h2 {
+        font-size: 23px;
+    }
+}
+@media(max-width:370px){
+    .mini {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .socialbig {
+        height: auto;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .mobilenav {
+        padding: 5px 10px;
+    }
+    .size, .admin {
+        font-size: 20px;
+    }
+    .mobilenavbtn {
+        width: 25px;
+        height: 20px;
+        font-size: 18px;
+    }
+    .navlogo {
+        width: 80px;
+    }
+    .size, .admin, .text1 {
+        text-align: center;
+    }
+    .admin, .homebox {
+        padding: 10px;
+    }
+    .homebox {
+        height: auto;
+    }
+    .articlespans {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .close {
+        top: 20px;
+        right: 20px;
+    }
+    .menu {
+        padding: 30px;
+    }
+    .section {
+        word-break: break-all;
+    }
+    .h1 {
+        font-size: 27px;
+    }
+    .h2 {
+        font-size: 19px;
+    }
+    .size, .admin, .text1 {
+        font-size: 19px;
+    }
+}
